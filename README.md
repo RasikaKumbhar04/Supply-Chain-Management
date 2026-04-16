@@ -1,7 +1,7 @@
 # 📦 Supply Chain Management – Project (P1249)
+🔗 [Supply Chain Management Dashboard Link](https://drive.google.com/file/d/1AHEWBn9WK-dwQ7i_P952tXibvjJRYFth/view?usp=drive_link) - **hosted externally due to file size constraints**
 
-🔗 **Power BI Dashboard (PBIX – hosted on SharePoint due to file size constraints):**  
-👉 *Paste your SharePoint link here*
+<p align = "center"><img width="1536" height="420" alt="image" src="https://github.com/user-attachments/assets/8a8f03d1-f2ba-439a-8643-f8b5fa2e869a" />
 
 ---
 
@@ -11,8 +11,9 @@ End‑to‑end **Supply Chain & Retail Analytics** solution built using **Excel 
 
 This project delivers a complete analytics framework for monitoring orders, revenue, cost, profit, inventory availability, and customer distribution across stores, regions, and product hierarchies. It covers data preparation, fact‑dimension modeling, dashboard development, and actionable supply chain insights.
 
-📌 *Optional:* Add dashboard/banner image  
-`PASTE_BANNER_IMAGE_LINK_HERE`
+## 📸 Dashboard Preview
+
+<p align = "center"><img width="1536" height="580" alt="image" src="https://github.com/user-attachments/assets/c72e9fce-66e1-475c-b2d1-33d1fee71457" />
 
 ---
 
@@ -90,9 +91,9 @@ Designed as an industry‑ready BI project, it highlights strong skills in data 
         - Date  
         - Store Region & State  
         - Product Line & Product Family
-        - Quantity on Hand  
+        - Quantity on Hand
 
-5️. Business Insights & Recommendations
+ 5. Business Insights & Recommendations
 
         - Identified top‑performing stores, regions, and product families  
         - Highlighted low‑stock and at‑risk inventory items  
@@ -111,9 +112,9 @@ Designed as an industry‑ready BI project, it highlights strong skills in data 
 
 📁 **Project Files**
 
-| Component            | Access / Details                          |
+| Component            | Access / Details                        |
 |---------------------|------------------------------------------|
-| Power BI Dashboard  | 🔗 Hosted on SharePoint                  |
+| Power BI Dashboard  | 🔗 [Power BI dashboard link](https://drive.google.com/file/d/1AHEWBn9WK-dwQ7i_P952tXibvjJRYFth/view?usp=drive_link)              |
 | Dataset Files       | Excel – Fact & Dimension Tables          |
 | Dashboard Screenshot| Included in this repository              |
 
@@ -123,17 +124,17 @@ Designed as an industry‑ready BI project, it highlights strong skills in data 
 
 🗂️ **Dataset Description**
 
-| Dataset Name           | Purpose |
-|------------------------|---------|
-| `F_SALES`              | Sales transactions including revenue & quantity |
-| `F_POINT_OF_SALE`      | POS‑level transaction data |
-| `F_INVENTORY_ADJUSTED` | Inventory quantities & stock adjustments |
-| `D_PRODUCT`            | Product details, categories, product families |
-| `D_STORE`              | Store details including region & state |
-| `D_CUSTOMER`           | Customer identifiers |
-| `4_5_4_CALENDAR`       | Retail calendar for time‑based analysis |
-| `D_GEOJSON_US_COUNTIES`| Geographic mapping |
-| `Supply Chain View`    | Consolidated reporting view |
+| Dataset Name           | Purpose                                          |
+|------------------------|--------------------------------------------------|
+| `F_SALES`              | Sales transactions including revenue & quantity  |
+| `F_POINT_OF_SALE`      | POS‑level transaction data                       |
+| `F_INVENTORY_ADJUSTED` | Inventory quantities & stock adjustments         |
+| `D_PRODUCT`            | Product details, categories, product families    |
+| `D_STORE`              | Store details including region & state           |
+| `D_CUSTOMER`           | Customer identifiers                             |
+| `4_5_4_CALENDAR`       | Retail calendar for time‑based analysis          |
+| `D_GEOJSON_US_COUNTIES`| Geographic mapping                               |
+| `Supply Chain View`    | Consolidated reporting view                      |
 
 ---
 
@@ -198,5 +199,3 @@ Designed as an industry‑ready BI project, it highlights strong skills in data 
   - Refresh data if required  
   - Use slicers to explore insights by date, region, store, and product  
 
-- Excel
-  - Review source datasets if required
