@@ -1,169 +1,202 @@
+# 📦 Supply Chain Management – Project (P1249)
 
-📦 Supply Chain Management Dashboard – Project (SC‑2024)
-🔗 Power BI Dashboard (PBIX – hosted on SharePoint):
-👉 [Paste your SharePoint link here]
+🔗 **Power BI Dashboard (PBIX – hosted on SharePoint due to file size constraints):**  
+👉 *Paste your SharePoint link here*
 
-Project Overview
+---
 
-End‑to‑end Supply Chain & Retail Analytics using Excel & Power BI
+## Project Overview
 
-This project delivers a complete supply chain analytics solution focused on monitoring orders, revenue, cost, profit, inventory availability, and customer distribution across stores, regions, and product hierarchies. The solution mirrors a real‑world retail data warehouse model using fact and dimension datasets.
+End‑to‑end **Supply Chain & Retail Analytics** solution built using **Excel and Power BI**.
 
-⭐ Executive Summary
+This project delivers a complete analytics framework for monitoring orders, revenue, cost, profit, inventory availability, and customer distribution across stores, regions, and product hierarchies. It covers data preparation, fact‑dimension modeling, dashboard development, and actionable supply chain insights.
+
+📌 *Optional:* Add dashboard/banner image  
+`PASTE_BANNER_IMAGE_LINK_HERE`
+
+---
+
+⭐ **Executive Summary**
 
 This project demonstrates the full analytics lifecycle:
 
-  ✅ Data Import → Cleaning → Transformation
-  ✅ Fact & Dimension Modeling
-  ✅ KPI Computation & Performance Analysis
-  ✅ Power BI Dashboard Development
-  ✅ Action‑oriented inventory and sales insights
+     ✅ Data Import → Cleaning → Transformation  
+     ✅ Fact & Dimension Modeling (Retail Star Schema)  
+     ✅ KPI Computation → Sales & Inventory Analysis  
+     ✅ Power BI Dashboard Development  
+     ✅ Action‑oriented Supply Chain Insights  
+
+Designed as an industry‑ready BI project, it highlights strong skills in data modeling, KPI design, Power BI visualization, and analytical storytelling.
+
+---
+
+⭐ **Project Scope & Responsibilities**
+
+1. Data Preparation & Cleaning
+   
+    - Imported multiple Excel datasets covering sales, inventory, products, stores, customers, and calendar data  
+    - Cleaned missing values and standardized numeric, date, and categorical fields  
+    - Ensured consistency across all fact and dimension tables  
+
+2. Data Relationships & Modeling
+
+   Developed a Retail Star Schema using the following tables:
+        
+          Fact Tables
+          - `F_SALES`
+          - `F_POINT_OF_SALE`
+          - `F_INVENTORY_ADJUSTED`
+          
+          Dimension Tables
+          - `D_PRODUCT`
+          - `D_STORE`
+          - `D_CUSTOMER`
+          - `4_5_4_CALENDAR`
+          - `D_GEOJSON_US_COUNTIES`
   
-Designed as an industry‑ready BI project, this showcases strong skills in data modeling, Power BI visualization, KPI analysis, and analytical storytelling for supply chain use cases.
+      Additionally, a consolidated Supply Chain View was used for reporting and KPI validation, ensuring accurate calculations and smooth dashboard interactions.
 
-⭐ Project Scope & Responsibilities
-Data Preparation & Cleaning
+3. KPI Analysis & Computation
 
-Imported multiple Excel datasets representing sales, inventory, customers, products, stores, and calendar data
-Cleaned and standardized numeric, date, and categorical fields
-Validated keys and ensured consistency across all fact and dimension tables
+    Designed KPIs to track:
 
-Data Modeling & Relationships
-Built a structured retail star‑schema‑based model using:
-Fact Tables
+        - Total Orders  
+        - Total Revenue  
+        - Total Cost Amount  
+        - Total Profit  
+        - Profit %  
+        - Quantity on Hand  
+        - Unique Customers  
 
-F_SALES – Sales transactions and revenue metrics
-F_POINT_OF_SALE – POS‑level sales data
-F_INVENTORY_ADJUSTED – Inventory quantities and stock adjustments
+    All KPIs dynamically respond to slicers and filters.
 
-Dimension Tables
+4. Dashboard Development (Power BI)
 
-D_PRODUCT – Product details, categories, and product lines
-D_STORE – Store and regional information
-D_CUSTOMER – Customer identifiers
-4_5_4_CALENDAR – Retail calendar for time‑based analysis
-D_GEOJSON_US_COUNTIES – Geographic mapping for regional visuals
+    Key Dashboard Features
+   
+       ✅ Executive KPI cards (Orders, Revenue, Cost, Profit, Inventory, Customers)  
+       ✅ Store‑wise & Region‑wise Revenue Analysis
+       ✅ Profit by Store State  
+       ✅ Revenue by Product Type  
+       ✅ Inventory Status Classification  
+            - In Stock  
+            - At Risk  
+            - Low Stock  
+       ✅ Product‑level Quantity on Hand Indicators  
+       ✅ Sales by Product Family (Treemap)
+          
+     Interactive Filters Included
+   
+        - Date  
+        - Store Region & State  
+        - Product Line & Product Family
+        - Quantity on Hand  
 
-Additionally, a consolidated Supply Chain View was used for reporting and validation.
+5️. Business Insights & Recommendations
 
-⭐ KPI Analysis & Computation
-Developed KPIs to track:
+        - Identified top‑performing stores, regions, and product families  
+        - Highlighted low‑stock and at‑risk inventory items  
+        - Analyzed revenue contribution by product type and geography  
+        - Provided insights to support inventory replenishment and demand planning  
 
-Total Orders
-Total Revenue
-Total Cost Amount
-Total Profit & Profit %
-Quantity on Hand
-Unique Customers
+---
 
-All KPIs dynamically respond to slicers and filters.
+🛠️ **Tools & Technologies**
 
-⭐ Dashboard Development (Power BI)
-✅ Built a single‑page executive dashboard with the following sections:
-Sales & Revenue Analysis
+  - **Excel** – Source datasets  
+  - **Power BI** – Data modeling, DAX measures, dashboarding  
+  - **Power Query** – Data cleaning and transformation  
 
-Store‑wise revenue comparison
-Revenue by product type
-Revenue by store region
-Profit by store state
+---
 
-Inventory Management
+📁 **Project Files**
 
-Stock availability classification:
+| Component            | Access / Details                          |
+|---------------------|------------------------------------------|
+| Power BI Dashboard  | 🔗 Hosted on SharePoint                  |
+| Dataset Files       | Excel – Fact & Dimension Tables          |
+| Dashboard Screenshot| Included in this repository              |
 
-In Stock
-At Risk
-Low Stock
+📌 *PBIX file is hosted externally due to file size constraints.*
 
+---
 
-Product‑level quantity on hand indicators
-Identification of stock‑out risks
+🗂️ **Dataset Description**
 
-Product Performance
+| Dataset Name           | Purpose |
+|------------------------|---------|
+| `F_SALES`              | Sales transactions including revenue & quantity |
+| `F_POINT_OF_SALE`      | POS‑level transaction data |
+| `F_INVENTORY_ADJUSTED` | Inventory quantities & stock adjustments |
+| `D_PRODUCT`            | Product details, categories, product families |
+| `D_STORE`              | Store details including region & state |
+| `D_CUSTOMER`           | Customer identifiers |
+| `4_5_4_CALENDAR`       | Retail calendar for time‑based analysis |
+| `D_GEOJSON_US_COUNTIES`| Geographic mapping |
+| `Supply Chain View`    | Consolidated reporting view |
 
-Sales amount by product family (Treemap)
-Product‑level revenue contribution
-High‑performing vs slow‑moving product categories
+---
 
-Customer Insights
+🧱 **Data Model (Retail Star Schema)**
 
-Unique customer count
-Customer distribution across regions and stores
+                          4_5_4_CALENDAR
+                                │
+                                │
+        ------------------------------------------------
+        |                     |                        |
+     F_SALES          F_POINT_OF_SALE       F_INVENTORY_ADJUSTED
+        |                     |                        |
+        |                     |                        |
+     D_PRODUCT            D_PRODUCT                 D_PRODUCT
+        |
+     D_STORE
+        |
+     D_CUSTOMER
 
-All visuals support interactive filtering by:
+---------
 
-Date range
-Store region & state
-Product line & product family
-Quantity on hand
+🔄 **Data Integration Workflow**
 
+    - Excel Files → Power BI  
+    - Power Query → Data Cleaning & Transformation  
+    - Power BI Data Model → KPIs & Visual Layer  
 
-⭐ Tools & Technologies
+✅ Closely aligned with real‑world supply chain BI workflows  
 
-Power BI – Data modeling, DAX measures, interactive dashboards
-Excel – Source datasets
-Power Query – Data cleaning and transformation
+✅ Clean, efficient, and scalable design  
 
+---
 
-📁 Project Files
+📈 **Key Business Insights**
 
+1. Sales & Revenue Insights
+   
+    - Revenue contribution varies significantly across regions and stores  
+    - Some high‑volume products show lower profitability  
 
+2. Inventory Insights
+   
+    - *At Risk* and *Low Stock* products highlight replenishment priorities  
+    - Inventory imbalance reveals potential stock‑out and overstock risks  
 
+3. Product Performance Insights
+   
+    - Selected product families disproportionately contribute to total revenue  
+    - Treemap analysis identifies slow‑moving categories  
 
+4. Customer Insights
+   
+    - Customer demand is concentrated in specific regions and stores  
+    - Unique customer metrics support demand distribution analysis  
 
+---
 
+🚀 **How to Use This Project**
 
+- Power BI
+  - Open the dashboard using the SharePoint link  
+  - Refresh data if required  
+  - Use slicers to explore insights by date, region, store, and product  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-ComponentDetailsPower BI DashboardHosted externally via SharePointDataset FilesExcel fact & dimension tablesDashboard ScreenshotIncluded in this repository
-📌 PBIX file is hosted on SharePoint due to file size constraints.
-
-🔄 Data Integration Workflow (Actual Process Used)
-
-Excel Fact & Dimension Files → Power BI
-Power Query → Data Cleaning & Transformation
-Power BI Data Model → KPIs & Visual Layer
-
-✅ Closely aligned with real‑world retail BI workflows
-✅ Clean, modular, and scalable design
-
-📈 Key Business Insights
-Sales & Revenue Insights
-
-Revenue contribution varies significantly across regions and stores.
-Certain product types drive high sales but differ in profitability.
-
-Inventory Insights
-
-Products classified as At Risk and Low Stock highlight replenishment priorities.
-Inventory imbalance indicates potential stock‑out and overstock risks.
-
-Product Performance Insights
-
-Specific product families contribute disproportionately to total revenue.
-Treemap analysis highlights slow‑moving inventory.
-
-Customer Insights
-
-Customer demand is concentrated in select regions and stores.
-Unique customer metrics help identify demand distribution patterns.
-
-
-🚀 How to Use This Project
-
-Open the Power BI dashboard using the SharePoint link provided above
-Refresh data if required
-Use slicers to filter by date, region, store, and product
-Explore KPIs and visuals for supply chain insights
+- Excel
+  - Review source datasets if required
